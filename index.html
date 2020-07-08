@@ -7,6 +7,29 @@
     <link rel="stylesheet" type="text/css" href="css/style1.css">
 </head>
     <body>
+	
+	<div class="loader-wrapper">
+		<div class='body1'>
+			<span>
+				<span></span>
+				<span></span>
+				<span></span>
+			<span></span>
+			</span>
+		<div class='base'>
+			<span></span>
+		<div class='face'></div>
+		</div>
+		</div>
+		<div class='longfazers'>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<h1>Redirecting</h1>
+    </div>   
+	
         <header class="header">
             <div class="logo-box">
                 <img src="img/logo-white.png" alt="Logo" class="logo"> 
@@ -21,6 +44,14 @@
             </div>
            
         </header>
-        
+		
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		setTimeout(function(){
+			$('.loader-wrapper').fadeToggle();
+		}, 1800);
+	</script>
+	
     </body>
 </html>
